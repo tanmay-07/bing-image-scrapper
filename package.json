@@ -1,0 +1,23 @@
+{
+  "name": "image-scrapper",
+  "version": "1.0.0",
+  "description": "scrape images from google and compress",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "Tanmay Sharma",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.31.0",
+    "body-parser": "^1.17.1",
+    "ejs": "^2.5.6",
+    "express": "^4.15.2",
+    "image-downloader": "^2.0.3",
+    "images-scraper": "^2.0.11",
+    "mongoose": "^4.9.1",
+    "morgan": "^1.8.1",
+    "sharp": "^0.17.2"
+  }
+}

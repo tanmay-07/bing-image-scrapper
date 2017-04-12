@@ -1,0 +1,25 @@
+body{
+  background: black;
+  color: white;
+}
+nav{
+  background: #C62828;
+  border-radius: 4px;
+  margin: 10% 0;
+}
+div.center a{
+  background: #C62828;
+
+}
+div.center a:hover{
+  color: #000;
+  background: rgb(244, 67, 54);
+}
+
+/*.chip{
+  font-size: 1.5em;
+  padding:  0 10px;
+  margin: 5px;
+  background: #C62828;
+  color: white;
+}*/

@@ -1,0 +1,12 @@
+<% include ./partials/header %>
+<div class="container">
+  <h1 class="center">Saved Results</h1>
+  <div class="row">
+      <% images.forEach(function(img){ %>
+        <a href="/tags/<%=img._id %>" class="chip"><%=img.query %></a>
+      <% }) %>
+  </div>
+  <a class="btn-floating btn-large waves-effect waves-light red" href="/"><i class="fa fa-arrow-left" aria-hidden="true"></i></a>
+</div>
+
+<% include ./partials/footer %>

@@ -1,0 +1,16 @@
+<% include ./partials/header %>
+<div class="container">
+  <div class="row">
+  <% img.images.forEach(function(image){ %>
+      <div class="col s3">
+        <div class="card">
+          <div class="card-image">
+            <img src="https://s3.amazonaws.com/zillion-images/<%= image%>" alt="" width="300px" height="300px">
+          </div>
+        </div>
+      </div>
+    <% }); %>
+  </div>
+</div>
+<a class="btn-floating btn-large waves-effect waves-light red" href="/tags"><i class="fa fa-arrow-left" aria-hidden="true"></i></a>
+<% include ./partials/footer %>

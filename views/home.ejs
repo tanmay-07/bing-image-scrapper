@@ -1,0 +1,25 @@
+<% include ./partials/header %>
+
+<h1 class="center">Image Scrapper</h1>
+<div class="container">
+  <nav>
+      <div class="nav-wrapper">
+        <form action="/search" method="POST">
+          <div class="input-field">
+
+              <input id="search" type="search" name="search" required>
+              <label class="label-icon" for="search"><i class="fa fa-search" aria-hidden="true"></i></label>
+
+          </div>
+        </form>
+      </div>
+    </nav>
+</div>
+<div class="center">
+  <a href="/tags" class="waves-effect waves-light btn-large center">Show saved results</a>
+
+</div>
+
+
+
+<% include ./partials/footer %>
